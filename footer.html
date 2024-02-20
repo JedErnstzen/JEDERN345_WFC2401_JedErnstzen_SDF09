@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Footer Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- The footer -->
+    <footer class="bg-[#659f8f] ml-4">
+        <div class="container px-6 py-12 mx-auto">
+            <!-- The grid Layout -->
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+                <div class="sm:col-span-2">
+                    <!-- Css for the Subcribe to our newsletter-->
+                    <h1 class="max-w-lg text-xl font-semibold tracking-tight text-[#313131] xl:text-2xl dark:text-white">Subscribe to our newsletter for updates.</h1>
+                    <!-- Flexbox -->
+                    <div class="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
+                        <!-- CSS for the fill in box for email address -->
+                        <input  placeholder="Email Address" id="email" type="text" class=" w-auto mr-4 px-4 py-2 text-[#313131] bg-white border rounded-md dark:bg-[#313131] dark:text-white dark:border-[#313131] focus:border-[#d86943] dark:focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943]">
+                        <!-- CSS for the Subcribe button -->
+                        <button class="inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 w-auto px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#D86943] hover:bg-[#D86943] hover:shadow-md hover:bg-opacity-85">Subscribe</button>
+                    </div>
+                </div>
+                <div>
+                    <!-- CSS for the Quick and link the the rest of the subs below it -->
+                    <p class="text-[#313131] fw-1000 font-semibold">Quick Link</p>
+                    <div class="flex flex flex-col mx-auto mt-6 space-y-3 md:space-y-0">
+                        <a href="#" class="text-[#313131] hover:text-[#d86943] dark:text-white dark:hover:text-[#d86943]">Home</a>
+                        <a href="#" class="text-[#313131] hover:text-[#d86943] dark:text-white dark:hover:text-[#d86943]">Who We Are</a>
+                        <a href="#" class="text-[#313131] hover:text-[#d86943] dark:text-white dark:hover:text-[#d86943]">Our Philosophy</a>
+                    </div>
+                </div>
+                <div>
+                    <!-- CSS for the Technologies and the the rest of the subs below it -->
+                    <p class="text-[#313131] fw-1000 font-semibold">Technologies</p>
+                    <div class="flex flex flex-col mx-auto mt-6 space-y-3 md:space-y-0">
+                        <a href="#" class=" md-2 text-[#313131] hover:text-[#d86943] dark:text-white dark:hover:text-[#d86943]">HTML</a>
+                        <a href="#" class=" md-2 text-[#313131] hover:text-[#d86943] dark:text-white dark:hover:text-[#d86943]">CSS</a>
+                        <a href="#" class=" md-2 text-[#313131] hover:text-[#d86943] dark:text-white dark:hover:text-[#d86943]">JavaScript</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-[#d86943]">
+            <div class="flex items-center justify-between">
+                <!-- link for the codespace image -->
+                <a href="#">
+                    <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="" aria-label="Codespace_logo">
+                </a>
+                <!-- Placeholder for Social Media Icons -->
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
